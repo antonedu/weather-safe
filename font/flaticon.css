@@ -1,0 +1,73 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 07/10/2019 07:03
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-instagram:before { content: "\f100"; }
+.flaticon-facebook:before { content: "\f101"; }
+.flaticon-twitter:before { content: "\f102"; }
+.flaticon-left-arrow:before { content: "\f103"; }
+.flaticon-right-arrow:before { content: "\f104"; }
+.flaticon-left-arrow-1:before { content: "\f105"; }
+.flaticon-right-arrow-1:before { content: "\f106"; }
+.flaticon-confirm:before { content: "\f107"; }
+.flaticon-down-arrow:before { content: "\f108"; }
+.flaticon-cancel:before { content: "\f109"; }
+.flaticon-delete:before { content: "\f10a"; }
+.flaticon-down-arrow-1:before { content: "\f10b"; }
+.flaticon-up-arrow:before { content: "\f10c"; }
+.flaticon-add:before { content: "\f10d"; }
+.flaticon-resize:before { content: "\f10e"; }
+.flaticon-extract:before { content: "\f10f"; }
+.flaticon-up-arrow-1:before { content: "\f110"; }
+.flaticon-diagonal-arrow:before { content: "\f111"; }
+.flaticon-right-arrow-2:before { content: "\f112"; }
+.flaticon-left-arrow-2:before { content: "\f113"; }
+.flaticon-down-arrow-2:before { content: "\f114"; }
+.flaticon-left-arrow-3:before { content: "\f115"; }
+.flaticon-confirm-1:before { content: "\f116"; }
+.flaticon-play:before { content: "\f117"; }
+.flaticon-right-arrow-3:before { content: "\f118"; }
+.flaticon-cancel-1:before { content: "\f119"; }
+.flaticon-play-1:before { content: "\f11a"; }
+.flaticon-delete-1:before { content: "\f11b"; }
+.flaticon-down-arrow-3:before { content: "\f11c"; }
+.flaticon-add-1:before { content: "\f11d"; }
+.flaticon-left-arrow-4:before { content: "\f11e"; }
+.flaticon-focus:before { content: "\f11f"; }
+.flaticon-focus-1:before { content: "\f120"; }
+.flaticon-stop:before { content: "\f121"; }
+.flaticon-bike:before { content: "\f122"; }
+.flaticon-network:before { content: "\f123"; }
+.flaticon-resume:before { content: "\f124"; }
+.flaticon-value:before { content: "\f125"; }
+.flaticon-team:before { content: "\f126"; }
+.flaticon-multiple-users-silhouette:before { content: "\f127"; }
+.flaticon-user:before { content: "\f128"; }
