@@ -115,32 +115,6 @@ body {
 }
 }
 
-#box4 {
-  height: 1000px;
-  background-color: black;
-}
-
-.box4bilder {
-  width: 15%;
-  height: 200px;
-  background-color: white;
-  border-style: solid;
-  border-color: gray
-}
-
-#box4b1, #box4b3 {
-  margin-left: 10%;
-  margin-top: 100px;
-}
-
-#box4b2 {
-  float: right;
-  margin-right: 10%;
-}
-
-#box4b3 {
-  margin-top: 200px;
-}
 
 .fa-instagram, .fa-facebook {
   font-size: 50px;
@@ -213,4 +187,35 @@ body {
   -moz-transform: rotate(-135deg);
   -o-transform: rotate(-135deg);
   transform: rotate(-135deg);
+}
+
+#box4 {
+  width: 100%;
+  height: 1000px;
+  background-color: black;
+  overflow: auto;
+}
+
+.bildbox4 {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border: solid 1px darkgray;
+  border-radius: 100px;
+}
+
+#box4bild1 {
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+#box4bild2 {
+  float: right;
+  margin-top: 50px;
+  margin-right: 200px;
+}
+
+#box4bild3 {
+  margin-top: 300px;
+  margin-left: 200px;
 }
