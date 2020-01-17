@@ -48,6 +48,7 @@ body {
 }
 
 #box3text {
+  width: 60%;
   margin-left: 3%;
   color: white;
   font-size: 30px;
