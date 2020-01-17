@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -25,7 +26,6 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgba(62, 66, 85);
-  /* <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/chanut" title="Chanut">Chanut</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/roundicons" title="Roundicons">Roundicons</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/prettycons" title="prettycons">prettycons</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/icongeek26" title="Icongeek26">Icongeek26</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></div> */
 }
 
 #logga {
@@ -34,16 +34,16 @@ body {
 }
 
 #box1 {
-  background: linear-gradient(0.45turn, #414141, #000000);
+  background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+   background-blend-mode: multiply,multiply;
   height: 100px;
 }
 
 #box3 {
  height: 150px;
- background-color: #32c235;
+ background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+ background-blend-mode: multiply,multiply;
 }
-
-
 
 .knapptext {
   margin: 0;
@@ -62,7 +62,7 @@ body {
 .knapp  {
   width: 100px;
   height: 50px;
-  background-color: black;
+  background-color: #000;
   float: right;
   margin-top: 50px;
   margin-right: 100px;
@@ -189,33 +189,59 @@ body {
   transform: rotate(-135deg);
 }
 
-#box4 {
-  width: 100%;
+#box456body {
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
   height: 1000px;
-  background-color: black;
-  overflow: auto;
+  padding-top: 125px;
 }
 
-.bildbox4 {
-  width: 200px;
+.box {
+  width: 100%;
   height: 200px;
-  background-color: white;
-  border: solid 1px darkgray;
-  border-radius: 100px;
+  margin-bottom: 125px;
 }
 
-#box4bild1 {
-  margin-top: 100px;
-  margin-left: 200px;
+.box img {
+  width: 200px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
-#box4bild2 {
+.box p {
+  font-family: 'Comfortaa';
   float: right;
-  margin-top: 50px;
-  margin-right: 200px;
+  color: white;
+  font-size: 18px;
+  float: left;
+  margin-top: 75px;
+  text-overflow: ellipsis;
 }
 
-#box4bild3 {
-  margin-top: 300px;
-  margin-left: 200px;
+#box4 img {
+  float: left;
+}
+
+#box5 img {
+  float: right;
+}
+
+#box6 img {
+  float: left;
+}
+
+#box5 p {
+  float: right;
+}
+
+#footer {
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background-blend-mode: multiply,multiply;
+}
+
+#footer i {
+  float: right;
+  margin-top: 28px;
+  margin-right: 15px;
 }
