@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Glacial";
+  font-family: "Comfortaa";
 }
 
 @font-face {
@@ -26,7 +26,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: rgba(62, 66, 85);
+  background-color: black;
 }
 
 #logga {
@@ -70,7 +70,7 @@ body {
 }
 
 .knapp p {
-  line-height: 50px;
+  line-height: 53px;
   text-align: center;
   color: white;
   font-size: 20px;
@@ -83,7 +83,7 @@ body {
 }
 
 .knapp:hover {
-  background-color: gray
+  background-color: #222;
 }
 
 .animation {
@@ -239,9 +239,30 @@ body {
   background-blend-mode: multiply,multiply;
 }
 
-#footer i {
+#footer p {
+  line-height: 100px;
+  font-family: "Comfortaa";
+  font-size: 18px;
+  margin-left: 5%;
+}
+
+#instagram {
+  color: #833AB4;
+}
+
+#facebook {
+  color: #4267B2;
+}
+
+#instagram i {
   float: right;
-  margin-top: 28px;
+  margin-right: 90px;
+  margin-top: 25px;
+}
+
+#facebook i {
+  margin-top: 25px;
+  float: right;
   margin-right: 15px;
 }
 
