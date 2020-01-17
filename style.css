@@ -115,7 +115,7 @@ body {
 }
 
 
-.fa-instagram, .fa-facebook {
+.fa-instagram, .fa-envelope {
   font-size: 50px;
 }
 
@@ -250,7 +250,7 @@ body {
   color: #833AB4;
 }
 
-#facebook {
+#mail {
   color: #4267B2;
 }
 
@@ -260,7 +260,7 @@ body {
   margin-top: 25px;
 }
 
-#facebook i {
+#mail i {
   margin-top: 25px;
   float: right;
   margin-right: 15px;
