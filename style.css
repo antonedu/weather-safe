@@ -282,3 +282,53 @@ body {
   float: none;
 }
 }
+
+#box4 {
+  display: none;
+}
+
+#box5 {
+  display: none;
+}
+
+#box6 {
+  display: none;
+}
+
+@keyframes slideInLeft {
+  from {
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInLeft {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+  animation-duration: 2s;
+}
+
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(50%, 0, 0);
+    transform: translate3d(50%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInRight {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInRight;
+  animation-duration: 2s;
+}
