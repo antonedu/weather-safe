@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -41,22 +42,19 @@ body {
 
 #box3 {
  height: 150px;
+ width: 100%;
  background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
  background-blend-mode: multiply,multiply;
 }
 
-.knapptext {
-  margin: 0;
-  padding: 0;
+#box3text {
+  margin-left: 3%;
   color: white;
-  padding: 40px 0;
-  width: 50%;
   font-size: 30px;
-  margin-left: 50px;
-}
-
-.knapptext p {
-  margin: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .knapp  {
@@ -65,7 +63,7 @@ body {
   background-color: #000;
   float: right;
   margin-top: 50px;
-  margin-right: 100px;
+  margin-right: 5%;
   padding: 0;
   border-radius: 5px 5px;
 }
@@ -244,4 +242,21 @@ body {
   float: right;
   margin-top: 28px;
   margin-right: 15px;
+}
+
+@media (max-width: 800px){
+#box3text {
+  font-size: 24px;
+}
+#box456body p {
+  text-align: center;
+  margin-top: 15px;
+  padding: 0;
+  float: none;
+}
+#box456body img {
+  display: block;
+  margin: auto;
+  float: none;
+}
 }
