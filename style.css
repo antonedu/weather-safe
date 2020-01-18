@@ -27,6 +27,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: black;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 #logga {
@@ -286,11 +288,9 @@ body {
 #box4 {
   display: none;
 }
-
 #box5 {
   display: none;
 }
-
 #box6 {
   display: none;
 }
