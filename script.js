@@ -21,3 +21,7 @@ $(document).scroll(function() {
     $('#box6').show();
   }
 });
+
+$( document ).ready(function() {
+    $('.animation').addClass("startanimation");
+});

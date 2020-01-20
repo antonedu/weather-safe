@@ -94,8 +94,11 @@ body {
   transform: translate(-50%, 50%);
   font-size: 6vw;
   width: 100%;
-  animation: text 0.7s 1;
   color: white;
+}
+
+.startanimation {
+    animation: text 0.7s 1;
 }
 
 @keyframes text {
