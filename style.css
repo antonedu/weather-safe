@@ -288,13 +288,31 @@ body {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   #box7 p {
     color: white;
-    font-size: 20px;
+    font-size: 24px;
     margin-left: 10%;
     margin-right: 10%;
     line-height: 35px;
+  }
+  #box3text {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}
+
+@media (max-width: 400px) {
+  #box7 p {
+    color: white;
+    font-size: 22px;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 33px;
   }
 }
 
