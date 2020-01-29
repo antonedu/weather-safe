@@ -41,7 +41,7 @@ body {
 }
 
 #box3 {
-  height: 150px;
+  height: 125px;
   width: 100%;
   background-color: #C0B283;
 }
@@ -62,7 +62,10 @@ body {
   height: 50px;
   background-color: #000;
   float: right;
-  margin-top: 50px;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
   margin-right: 5%;
   padding: 0;
   border-radius: 5px 5px;
@@ -283,4 +286,46 @@ body {
   animation-duration: 2s;
 }
 
-#box7 {}
+#box7 {
+  height: 1000px;
+  background-image: url("bilder/box7.jpg");
+  background-size: cover;
+}
+
+#box7 p {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-left: 20%;
+  margin-right: 20%;
+  line-height: 45px;
+  font-weight: bold;
+}
+
+#box8 {
+  height: 125px;
+  width: 100%;
+  background-color: #C0B283;
+}
+
+#box4 p {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#box5 p {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#box6 p {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
