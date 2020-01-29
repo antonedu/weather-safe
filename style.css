@@ -288,6 +288,16 @@ body {
   }
 }
 
+@media (max-width: 400px) {
+  #box7 p {
+    color: white;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 35px;
+  }
+}
+
 #box4 {
   display: none;
 }
