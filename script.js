@@ -22,6 +22,6 @@ $(document).scroll(function() {
   }
 });
 
-$( document ).ready(function() {
+$(document).ready(function() {
     $('.animation').addClass("startanimation");
 });
